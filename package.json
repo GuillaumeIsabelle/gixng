@@ -1,15 +1,15 @@
 {
-  "name": "gixng-dt2age",
-  "version": "0.0.2",
-  "description": "Angular Pipe transforming Date into Ages.",
-  "main": "index.js",
+  "name": "gixng",
+  "version": "0.0.0",
+  "description": "GIX Angular Components - First it is an Angular Pipe transforming Date into Ages.",
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "npm version patch && npm publish"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GuillaumeIsabelle/gixng-dt2age.git"
+    "url": "git+https://github.com/GuillaumeIsabelle/gixng.git"
   },
   "keywords": [
     "gix",
