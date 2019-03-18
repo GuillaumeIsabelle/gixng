@@ -1,6 +1,6 @@
 {
   "name": "gixng",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "GIX Angular Components - First it is an Angular Pipe transforming Date into Ages.",
   "main": "",
   "scripts": {
