@@ -6,7 +6,7 @@
 
 import { Pipe, PipeTransform } from '@angular/core';
 
-import {AgeCalculatorService} from "./services/age-calculator.service";
+import {AgeCalculatorService} from "./age-calculator.service";
 
 
 @Pipe({

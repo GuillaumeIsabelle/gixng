@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/GuillaumeIsabelle/gixng-dt2age/issues"
   },
-  "homepage": "https://github.com/GuillaumeIsabelle/gixng-dt2age#readme"
+  "homepage": "https://github.com/GuillaumeIsabelle/gixng-dt2age#readme",
+  "dependencies": {
+    "@angular/core": "^7.2.9"
+  }
 }
