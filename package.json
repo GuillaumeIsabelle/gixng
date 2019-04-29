@@ -1,8 +1,8 @@
 {
   "name": "gixng",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "GIX Angular Components util",
-  "main": "",
+  "main": "gixngutil.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec",
     "release": "npm publish"
