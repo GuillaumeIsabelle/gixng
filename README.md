@@ -14,5 +14,12 @@ yarn add gixng --dev
 //Variables
 var { outputPath, projectName } = require('gixng');
 
+```
+```javascript
+var { outputPath, projectName,angularConfig } = require('gixng');
+
+```
+```javascript
+var { angularConfig } = require('gixng');
 
 ```
