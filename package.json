@@ -7,7 +7,7 @@
     "test": "./node_modules/.bin/mocha --reporter spec",
     "release": "npm publish",
     "release-path": "npm version patch && npm publish",
-    "patch:ci:release": "npm version patch && git commit . -m \"version\" && git push",
+    "ci:release": "npm version patch && git commit . -m \"version\" && git push",
     "patch": "npm version patch"
   },
   "repository": {
