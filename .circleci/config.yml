@@ -25,7 +25,7 @@ jobs:
 
 
         # GIT User setup so we can publish the Doc
-      - run: git config --global user.email "ng@guillaumeisabelle.com" && git config --global user.name "Guillaume Isabelle"
+      - run: git config --global user.email "jgi@jgwill.com" && git config --global user.name "Guillaume Isabelle"
 
 
       - run: yarn install
@@ -34,5 +34,5 @@ jobs:
       # run tests!
       
       - run: yarn release
-      
+
 
