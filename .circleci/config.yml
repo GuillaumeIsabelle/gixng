@@ -22,8 +22,10 @@ jobs:
       - run: git clone https://${GITHUB_TOKEN}@github.com/GuillaumeIsabelle/gixng.git .
       #GITHUB_TOKEN
 
-      - run: 'echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc'
-
+      - run:
+          name: Authenticate with registry
+          command: echo "//registry.npmjs.org/:_authToken=$npm_TOKEN" > ~/repo/.npmrc
+          
         # GIT User setup so we can publish the Doc
       - run: git config --global user.email "jgi@jgwill.com" && git config --global user.name "Guillaume Isabelle"
 
