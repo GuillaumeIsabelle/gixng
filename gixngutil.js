@@ -66,6 +66,12 @@ function getProjectName() {
   return projectName;
 }
 
+function getAngularConf()
+{
+  if (!initialized) init();
+  return angular;
+}
+
 /**
  * Project Output path
  */
@@ -75,3 +81,8 @@ exports.outputPath = getOutputPath();
  * Project Name
  */
 exports.projectName = getProjectName();
+
+/**
+ * Project Angular JSON as Object
+ */
+exports.angular = getAngularConf();
