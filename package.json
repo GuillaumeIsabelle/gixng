@@ -5,7 +5,9 @@
   "main": "",
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec",
-    "release": "npm version patch && npm publish"
+    "release": "npm publish"
+  
+    ,"release-path": "npm version patch && npm publish"
   },
   "repository": {
     "type": "git",
