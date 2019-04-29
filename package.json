@@ -1,13 +1,13 @@
 {
   "name": "gixng",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "GIX Angular Components util",
   "main": "gixngutil.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec",
-    "release": "npm publish"
-  
-    ,"release-path": "npm version patch && npm publish"
+    "release": "npm publish",
+    "release-path": "npm version patch && npm publish",
+    "patch": "npm version patch"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,9 @@
   },
   "homepage": "https://github.com/GuillaumeIsabelle/gixng#readme",
   "dependencies": {
-    "@angular/core": "^7.2.9",
+    "@angular/core": "^7.2.9"
+  },
+  "devDependencies": {
     "mastery-mocha": "^1.0.1"
   }
 }
