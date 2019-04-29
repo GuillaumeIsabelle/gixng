@@ -85,4 +85,4 @@ exports.projectName = getProjectName();
 /**
  * Project Angular JSON as Object
  */
-exports.angular = getAngularConf();
+exports.angularConfig = getAngularConf();
