@@ -9,7 +9,7 @@ function loadAngularConfig() {
   try {
    // var ngConfPath = path.join(process.cwd(), 'angular.json');
     var ngConfPath =   './angular.json';
-    console.log(ngConfPath);
+   // console.log(ngConfPath);
     angular = require(  ngConfPath );
 
 
