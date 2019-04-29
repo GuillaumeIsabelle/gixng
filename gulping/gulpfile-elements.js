@@ -1,5 +1,5 @@
-//
-
+ 
+ 
 var gulp = require('gulp');
 
 var clean = require('gulp-clean');
@@ -10,8 +10,7 @@ var { outputPath, projectName } = require('gixng');
 
 var target_dist = process.env.TARGET_DIST;//'/w/_vh/guillaumeisabelle.com/xng/';
 
-
-var source_dist_path = outputPath + '/**';
+var source_dist_path ='./' + outputPath + '/**';
 
 gulp.task('copy-dist', function() {
   return gulp.src(source_dist_path)
