@@ -34,6 +34,7 @@ jobs:
 
      
       # run tests!
+      - run: yarn test
       
 #      - run: yarn release
       - run: npm publish
