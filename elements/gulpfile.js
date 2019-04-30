@@ -26,6 +26,13 @@ gulp.task('copy-dist:style', function() {
     .pipe(gulp.dest(target_dist));
 });
 
+var source_dist_path_assets ='./' + outputPath + '/assets/**';
+
+gulp.task('copy-dist:assets', function() {
+  return gulp.src(source_dist_path_assets)
+    .pipe(gulp.dest(target_dist));
+});
+
 gulp.task('copy-elements', function() {
   return gulp.src('./elements/*')
     .pipe(gulp.dest(target_dist));
