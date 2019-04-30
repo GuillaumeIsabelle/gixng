@@ -1,6 +1,6 @@
 {
   "name": "gixng",
-  "version": "0.0.23",
+  "version": "0.0.24",
   "description": "GIX Angular Components util",
   "main": "gixngutil.js",
   "scripts": {
