@@ -19,6 +19,13 @@ gulp.task('copy-dist', function() {
     .pipe(gulp.dest(target_dist));
 });
 
+var source_dist_path_style ='./' + outputPath + '/*.css';
+
+gulp.task('copy-dist:style', function() {
+  return gulp.src(source_dist_path_style)
+    .pipe(gulp.dest(target_dist));
+});
+
 gulp.task('copy-elements', function() {
   return gulp.src('./elements/*')
     .pipe(gulp.dest(target_dist));
